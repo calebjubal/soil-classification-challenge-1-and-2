@@ -1,8 +1,8 @@
 """
 Author: Annam.ai IIT Ropar
 Team Name: SoilClassifiers
-Team Members: Member-1, Member-2, Member-3, Member-4, Member-5
-Leaderboard Rank: <Your Rank>
+Team Members: Caleb Chandrasekar, Sarvesh Chandran, Swaraj Bhattacharjee, Karan Singh, Saatvik Tyagi
+Leaderboard Rank: 120
 """
 
 import os
