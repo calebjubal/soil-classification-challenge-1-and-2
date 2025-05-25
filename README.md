@@ -1,9 +1,39 @@
-# Soil Classification Hackathon Challenge Template Repository
+# Annam.ai Internship - Soil Classification Challenges
 
-This is the template repository for soil classification challenge. Please refer to this and make the required changes in your respective repositories. You could clone it as well and then add required files. 
+This repository contains Python solutions for two soil classification challenges completed during an internship at Annam.ai. The code is implemented using PyTorch and leverages Jupyter Notebooks for both training and inference.
 
-*Please note that: We strictly advise you to use this template, this is the same template as mentioned in the Google Forms shared with you.*
+## Team Information
 
-*Happy Coding and Hacking!*
+*   **Author**: Annam.ai IIT Ropar
+*   **Team Name**: SoilClassifiers
+*   **Team Members**: Caleb Chandrasekar, Sarvesh Chandran, Swaraj Bhattacharjee, Karan Singh, Saatvik Tyagi
+*   **Leaderboard Ranks**:
+    *   Challenge 1: 103
+    *   Challenge 2: 120
 
-### Deadline for Submissions: 25th May, 2025, 11:59 PM IST
+## About the Challenges & Code
+
+### Challenge 1: Soil Type Classification
+*   **Goal**: Classify soil images into four types (Alluvial, Black, Clay, Red).
+*   **Approach**: Fine-tuned an `efficientnet_v2_s` model. Inference utilizes Test-Time Augmentation (TTA).
+*   **Code**:
+    *   `challenge-1/training.ipynb`: Trains the classification model.
+    *   `challenge-1/inference.ipynb`: Performs predictions with TTA.
+
+### Challenge 2: Autoencoder for Anomaly Detection
+*   **Goal**: Detect anomalous soil images using an autoencoder.
+*   **Approach**: Trained a convolutional autoencoder. Images are classified based on reconstruction error against a dynamically calculated threshold.
+*   **Code**:
+    *   `challenge-2/training.ipynb`: Trains the autoencoder and determines the anomaly threshold.
+    *   `challenge-2/inference.ipynb`: Uses the trained autoencoder to classify test images.
+
+## Key Technologies
+*   Python
+*   PyTorch
+*   Torchvision
+*   Pandas
+*   NumPy
+*   Scikit-learn
+*   Pillow (PIL)
+
+For detailed implementation, model architectures, and parameters, please refer to the respective Jupyter Notebooks within the `challenge-1` and `challenge-2` directories.
